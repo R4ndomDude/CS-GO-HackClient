@@ -7,8 +7,7 @@
 
 # [Tutorial on how to use](https://www.youtube.com/watch?v=YA-Sd1viLtQ)
 
-Feel free to use and abuse, I have no use for it (because its copy paste...)
-
+Feel free to use and abuse, I have no use for it.
 Has stuff like external access to ClientCmd_Unrestricted, BSP Parser, silent aim and other things. Some things are leeched and others aren't. 
 
 Credits to whoever, if you care msg me crying that I need to put you there or in the thread.
