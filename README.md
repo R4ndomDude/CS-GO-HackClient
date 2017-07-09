@@ -5,7 +5,7 @@
 # Because a lot of people requested me to do a private CS:GO Hack Client I decided to copy-paste one.
 ## You will probably get banned after one week, but it is worth trying mine! :3
 
-# 9Tutorial on how to use](https://www.youtube.com/watch?v=YA-Sd1viLtQ)
+# [Tutorial on how to use](https://www.youtube.com/watch?v=YA-Sd1viLtQ)
 
 Feel free to use and abuse, I have no use for it (never did really).
 
