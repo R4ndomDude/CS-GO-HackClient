@@ -1,0 +1,4 @@
+﻿  injector.cpp
+injector.cpp(13): error C2664: 'int wcscmp(const wchar_t *,const wchar_t *)' : cannot convert argument 1 from 'CHAR [260]' to 'const wchar_t *'
+          Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+  main.cpp

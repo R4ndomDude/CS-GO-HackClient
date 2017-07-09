@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CSGO">
+      <UniqueIdentifier>{6f06b670-0fd2-404a-939e-e8542a1a90f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\Main">
+      <UniqueIdentifier>{bd8e49e7-0ed0-4133-86a0-e31863338ac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\SDK">
+      <UniqueIdentifier>{29a45fd7-9389-4185-886b-eb01f0f506ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\VTHook">
+      <UniqueIdentifier>{d84fb771-145c-46b3-b107-132450ccbedd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\NetVars">
+      <UniqueIdentifier>{1f22a277-9aac-4474-b490-ad9dc4c32078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\Entity">
+      <UniqueIdentifier>{515ca7c7-0b9b-4038-8efd-36a0bfa3ce91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\Drawings">
+      <UniqueIdentifier>{1b0e6f40-9ada-436d-a45e-d7c19c172f63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\Stuff">
+      <UniqueIdentifier>{c54db2cd-3bcd-438c-8d62-2055e424208f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\Aimbot">
+      <UniqueIdentifier>{43c0adf6-fdb0-4f6d-9a89-ce79d4391ac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO\CVars">
+      <UniqueIdentifier>{ead45ec7-49da-43bd-beb7-92af90faacb0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDK.h">
+      <Filter>CSGO\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="VTHook.h">
+      <Filter>CSGO\VTHook</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVars.h">
+      <Filter>CSGO\NetVars</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawings.h">
+      <Filter>CSGO\Drawings</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>CSGO\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="CVars.h">
+      <Filter>CSGO\CVars</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>CSGO\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>CSGO\Stuff</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SDK.cpp">
+      <Filter>CSGO\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLMain.cpp">
+      <Filter>CSGO\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="VTHook.cpp">
+      <Filter>CSGO\VTHook</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVars.cpp">
+      <Filter>CSGO\NetVars</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawings.cpp">
+      <Filter>CSGO\Drawings</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>CSGO\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="CVars.cpp">
+      <Filter>CSGO\CVars</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>CSGO\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>CSGO\Stuff</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

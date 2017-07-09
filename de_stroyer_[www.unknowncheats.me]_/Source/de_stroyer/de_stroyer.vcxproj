@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B6E82C7D-C2CC-43DB-84CC-FB8BAAB61F53}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>de_stroyer</RootNamespace>
+    <ProjectName>de_stroyer</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros">
+    <NuGetPackageImportStamp>4980a740</NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;FANCISDK_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalOptions>/ignore:4172 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;FANCISDK_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="aim.h" />
+    <ClInclude Include="autowall.h" />
+    <ClInclude Include="bf.h" />
+    <ClInclude Include="bspflags.h" />
+    <ClInclude Include="button.h" />
+    <ClInclude Include="callbacks.h" />
+    <ClInclude Include="cheat.h" />
+    <ClInclude Include="checkbox.h" />
+    <ClInclude Include="collideable.h" />
+    <ClInclude Include="color.h" />
+    <ClInclude Include="colorpicker.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="cvar.h" />
+    <ClInclude Include="defines.h" />
+    <ClInclude Include="draw.h" />
+    <ClInclude Include="DynSkin\File\HFile.h" />
+    <ClInclude Include="DynSkin\File\Valve\HValve.h" />
+    <ClInclude Include="DynSkin\Skin\HSkins.h" />
+    <ClInclude Include="elements.h" />
+    <ClInclude Include="entity.h" />
+    <ClInclude Include="fixmove.h" />
+    <ClInclude Include="frame.h" />
+    <ClInclude Include="global.h" />
+    <ClInclude Include="hooks.h" />
+    <ClInclude Include="ibaseclientdll.h" />
+    <ClInclude Include="icliententitylist.h" />
+    <ClInclude Include="iclientmodeshared.h" />
+    <ClInclude Include="icvar.h" />
+    <ClInclude Include="ienginetrace.h" />
+    <ClInclude Include="iglobalvarsbase.h" />
+    <ClInclude Include="iinputsystem.h" />
+    <ClInclude Include="input.h" />
+    <ClInclude Include="interfaces.h" />
+    <ClInclude Include="iengineclient.h" />
+    <ClInclude Include="iphysicssurfaceprops.h" />
+    <ClInclude Include="isurface.h" />
+    <ClInclude Include="ivpanel.h" />
+    <ClInclude Include="key.h" />
+    <ClInclude Include="matrix.h" />
+    <ClInclude Include="menu.h" />
+    <ClInclude Include="misc.h" />
+    <ClInclude Include="netvars.h" />
+    <ClInclude Include="offsets.h" />
+    <ClInclude Include="angle.h" />
+    <ClInclude Include="playerinfo.h" />
+    <ClInclude Include="sdk.h" />
+    <ClInclude Include="skinchanger.h" />
+    <ClInclude Include="skinsutil.h" />
+    <ClInclude Include="slider.h" />
+    <ClInclude Include="tab.h" />
+    <ClInclude Include="trace.h" />
+    <ClInclude Include="usercmd.h" />
+    <ClInclude Include="util.h" />
+    <ClInclude Include="vector.h" />
+    <ClInclude Include="viewsetup.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="aim.cpp" />
+    <ClCompile Include="autowall.cpp" />
+    <ClCompile Include="bf.cpp" />
+    <ClCompile Include="button.cpp" />
+    <ClCompile Include="callbacks.cpp" />
+    <ClCompile Include="cheat.cpp" />
+    <ClCompile Include="checkbox.cpp" />
+    <ClCompile Include="collideable.cpp" />
+    <ClCompile Include="colorpicker.cpp" />
+    <ClCompile Include="config.cpp" />
+    <ClCompile Include="createmove.cpp" />
+    <ClCompile Include="cvar.cpp" />
+    <ClCompile Include="draw.cpp" />
+    <ClCompile Include="DynSkin\File\File.cpp" />
+    <ClCompile Include="DynSkin\File\Valve\Valve.cpp" />
+    <ClCompile Include="DynSkin\Skin\Skins.cpp" />
+    <ClCompile Include="entity.cpp" />
+    <ClCompile Include="fixmove.cpp" />
+    <ClCompile Include="frame.cpp" />
+    <ClCompile Include="framestagenotify.cpp" />
+    <ClCompile Include="global.cpp" />
+    <ClCompile Include="ibaseclientdll.cpp" />
+    <ClCompile Include="iclientmodeshared.cpp" />
+    <ClCompile Include="icvar.cpp" />
+    <ClCompile Include="ienginetrace.cpp" />
+    <ClCompile Include="iinputsystem.cpp" />
+    <ClCompile Include="inprediction.cpp" />
+    <ClCompile Include="input.cpp" />
+    <ClCompile Include="interfaces.cpp" />
+    <ClCompile Include="iengineclient.cpp" />
+    <ClCompile Include="iphysicssurfaceprops.cpp" />
+    <ClCompile Include="isurface.cpp" />
+    <ClCompile Include="ivpanel.cpp" />
+    <ClCompile Include="key.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="menu.cpp" />
+    <ClCompile Include="netvars.cpp" />
+    <ClCompile Include="offsets.cpp" />
+    <ClCompile Include="overrideview.cpp" />
+    <ClCompile Include="painttraverse.cpp" />
+    <ClCompile Include="skinchanger.cpp" />
+    <ClCompile Include="skinsutil.cpp" />
+    <ClCompile Include="slider.cpp" />
+    <ClCompile Include="tab.cpp" />
+    <ClCompile Include="util.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Base">
+      <UniqueIdentifier>{f840714a-683b-4a07-ad50-bb2aa6e19e0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\SDK">
+      <UniqueIdentifier>{4d060ed6-40e6-4ea2-87e8-5ed9fcec9ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Math">
+      <UniqueIdentifier>{42e11a66-de20-454f-8f84-ec9fdf5dfb52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Utilities">
+      <UniqueIdentifier>{5602286a-9bb9-4b6a-af6f-495ef56c4f6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSGO">
+      <UniqueIdentifier>{fea6c606-4929-4516-8751-77fb167c9a56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Drawing">
+      <UniqueIdentifier>{e276d264-23ad-4004-bc07-e4a1c4a4e74c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Netvars">
+      <UniqueIdentifier>{a36bda98-c665-4dcc-89e8-9266a3a7f34c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="checksum_crc.cpp">
+      <Filter>Base\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Base\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="CValve.cpp">
+      <Filter>Base\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="CDraw.cpp">
+      <Filter>Base\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="Netvars.cpp">
+      <Filter>Base\Netvars</Filter>
+    </ClCompile>
+    <ClCompile Include="CMath.cpp">
+      <Filter>Base\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="CNoSpread.cpp">
+      <Filter>CSGO</Filter>
+    </ClCompile>
+    <ClCompile Include="CESP.cpp">
+      <Filter>CSGO</Filter>
+    </ClCompile>
+    <ClCompile Include="client.cpp">
+      <Filter>CSGO</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface.cpp">
+      <Filter>CSGO</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameEventManager.cpp">
+      <Filter>CSGO</Filter>
+    </ClCompile>
+    <ClCompile Include="CAimbot.cpp">
+      <Filter>CSGO</Filter>
+    </ClCompile>
+    <ClCompile Include="CVARS.cpp">
+      <Filter>CSGO</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>Base\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="CWinsock.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="mouse.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DllMain.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>Base\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseEntity.h">
+      <Filter>Base\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Base\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientClass.h">
+      <Filter>Base\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="HLClient.h">
+      <Filter>Base\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CEngineClient.h">
+      <Filter>Base\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ISurface.h">
+      <Filter>Base\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IPanel.h">
+      <Filter>Base\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CEntityList.h">
+      <Filter>Base\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CInput.h">
+      <Filter>Base\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CPrediction.h">
+      <Filter>Base\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameMovement.h">
+      <Filter>Base\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CDebugOverlay.h">
+      <Filter>Base\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CModelInfo.h">
+      <Filter>Base\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CTrace.h">
+      <Filter>Base\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Base\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="CGlobalVars.h">
+      <Filter>Base\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CValve.h">
+      <Filter>Base\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CDraw.h">
+      <Filter>Base\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="netvars.h">
+      <Filter>Base\Netvars</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseCombatWeapon.h">
+      <Filter>Base\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IMoveHelper.h">
+      <Filter>Base\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameEvent.h">
+      <Filter>Base\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameEventListener2.h">
+      <Filter>Base\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameEventManager.h">
+      <Filter>Base\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CMath.h">
+      <Filter>Base\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="CNoSpread.h">
+      <Filter>CSGO</Filter>
+    </ClInclude>
+    <ClInclude Include="CESP.h">
+      <Filter>CSGO</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>CSGO</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface.h">
+      <Filter>CSGO</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameEventManager.h">
+      <Filter>CSGO</Filter>
+    </ClInclude>
+    <ClInclude Include="CAimbot.h">
+      <Filter>CSGO</Filter>
+    </ClInclude>
+    <ClInclude Include="CVARS.h">
+      <Filter>CSGO</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.h">
+      <Filter>Base\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CWinsock.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ConVar.h">
+      <Filter>Base\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

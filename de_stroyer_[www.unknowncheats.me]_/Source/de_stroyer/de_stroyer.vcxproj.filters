@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\interfaces">
+      <UniqueIdentifier>{f9f56804-67ed-4092-80b3-cb3cc8dceeac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\interfaces\icliententitylist">
+      <UniqueIdentifier>{fca670f8-cc04-4ab6-9e1d-befcdcf9ceed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\interfaces\ivpanel">
+      <UniqueIdentifier>{e928302f-7960-4611-849c-3e072c79b486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\interfaces\ibaseclientdll">
+      <UniqueIdentifier>{894aaf0d-ba40-47f4-b559-142bc68d4a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks">
+      <UniqueIdentifier>{5b06ce31-cdd6-43e7-86c2-872eb62d4ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks\createmove">
+      <UniqueIdentifier>{4d88d79e-cca7-4d2f-a4f1-116073a0c58a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\interfaces\iclientmodeshared">
+      <UniqueIdentifier>{6aabc8ad-c81f-435b-88a7-8ed4efef165a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\interfaces\iengineclient">
+      <UniqueIdentifier>{4d58bb6c-e3f9-4cc8-93df-4a365f5cb623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\interfaces\interfaces">
+      <UniqueIdentifier>{640368f6-3824-424d-ab8d-72a906133687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util">
+      <UniqueIdentifier>{f5a7c5ae-118b-4ed8-af3f-e5aea7794841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util\color">
+      <UniqueIdentifier>{91b2aff4-8b81-4748-b417-752bf01e87ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util\config">
+      <UniqueIdentifier>{90fdb6c9-c2cd-42f2-b141-efcd3120080c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util\offsets">
+      <UniqueIdentifier>{3c20aceb-4079-426c-bc6a-ab53b7ee122a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util\misc">
+      <UniqueIdentifier>{30ef4ce4-5dc0-4ad2-97fc-6fc6cc128e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util\util">
+      <UniqueIdentifier>{207d9081-5b8e-4dcb-b784-f864581b424d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util\misc\entity">
+      <UniqueIdentifier>{ef58400d-cee0-444b-b27e-89a2a109906a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util\misc\vector">
+      <UniqueIdentifier>{7202c1ff-0efe-4e99-96a4-1d66938c3230}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\global">
+      <UniqueIdentifier>{b45e5fc6-47bc-4462-aaee-2f407b216ec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util\aim">
+      <UniqueIdentifier>{bcd06fc5-ed48-4ade-9ac9-2265e52a5ab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\cheat">
+      <UniqueIdentifier>{1b95ea7b-51a5-45fe-b514-4d40a0ea0abe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\interfaces\ienginetrace">
+      <UniqueIdentifier>{0e795cf3-6798-4147-8509-91b02521fe77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\interfaces\iglobalvarsbase">
+      <UniqueIdentifier>{5e0f72a0-d894-4720-98ce-c42f554516d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util\autowall">
+      <UniqueIdentifier>{81b8d027-88a0-4564-9fec-1668d4e61ec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\interfaces\isurface">
+      <UniqueIdentifier>{7f83476e-7995-4bae-a91c-4ac5f5ead367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util\draw">
+      <UniqueIdentifier>{bfcd907c-de48-47aa-8567-2fcd9cc59052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\menu">
+      <UniqueIdentifier>{7025b64a-d83f-4ce1-82e4-b36bd0850ba4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\menu\elements">
+      <UniqueIdentifier>{f7b4ac99-362d-43ea-9806-3be27df24d95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks\painttraverse">
+      <UniqueIdentifier>{c6cdf836-65c8-4317-a362-732655bed734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util\input">
+      <UniqueIdentifier>{a5eccfe0-73b8-4dc2-95f8-61e928308a94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\menu\elements\frame">
+      <UniqueIdentifier>{0a56a76d-8ca9-4a00-a3b3-1c478e583b42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\menu\elements\base">
+      <UniqueIdentifier>{a3d1c473-82de-4b04-8cbb-97f249bda613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\menu\elements\tab">
+      <UniqueIdentifier>{254003a5-999e-47b0-b17d-887a44ae9699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\menu\elements\checkbox">
+      <UniqueIdentifier>{01fec251-3d0b-4737-b2c2-afb23261baf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\menu\elements\slider">
+      <UniqueIdentifier>{c5e6ac59-6d68-4a71-af16-8d4530e8f49e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\menu\elements\key">
+      <UniqueIdentifier>{c10afd2d-a019-41f8-bff7-b62891b60473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\interfaces\icvar">
+      <UniqueIdentifier>{6553d0c4-1b1c-43a0-b419-f5ad13f1abe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util\misc\cvar">
+      <UniqueIdentifier>{bf9186db-d898-4757-bcc5-e65cf0bd4b8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util\misc\collideable">
+      <UniqueIdentifier>{3372a0de-d3e2-4243-aa78-2db371221c7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks\overrideview">
+      <UniqueIdentifier>{45a270fc-6b00-4017-aadc-613be5e6f210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\menu\elements\colorpicker">
+      <UniqueIdentifier>{edcfe4aa-7df8-4712-955f-f952ffa4adab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks\framestagenotify">
+      <UniqueIdentifier>{e770c25e-ff7d-4d01-a118-f85d2d14cbb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hooks\inprediction">
+      <UniqueIdentifier>{0b02239d-5661-42b4-9261-94650b7410ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util\fixmove">
+      <UniqueIdentifier>{633f086d-7760-4904-b43b-2c1d23d9253e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\interfaces\iphysicssurfaceprops">
+      <UniqueIdentifier>{176f3b14-3b91-425b-8f88-33514459838a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\menu\elements\skinchanger">
+      <UniqueIdentifier>{053700f8-6eb9-4110-a539-2a4705363283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util\skins">
+      <UniqueIdentifier>{8e16f4c5-b9e8-4baa-8661-d6d62a0d0980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{f5c85339-d60b-497f-acd4-63f75f4186b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\DynSkin">
+      <UniqueIdentifier>{89e3ed3b-d4e2-46d6-9a9e-6a5b691dde0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\DynSkin\File">
+      <UniqueIdentifier>{7383cd06-2bfc-45a0-8554-0d7428e950d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\DynSkin\File\Valve">
+      <UniqueIdentifier>{b0c0a975-afd1-4052-8450-ebbf4cf41302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\DynSkin\Skin">
+      <UniqueIdentifier>{9e04478f-2c97-4313-9c6e-024ccc503175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util\netvars">
+      <UniqueIdentifier>{6c4b7647-8017-4568-9506-2cd2f1d69cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\interfaces\iinputsystem">
+      <UniqueIdentifier>{6098a5ed-8122-46d5-86b5-1d6ae7f35245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\menu\elements\button">
+      <UniqueIdentifier>{0c33baa4-3f1f-46bf-9e90-5854a8f8071e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\menu\callbacks">
+      <UniqueIdentifier>{ef7a560c-3883-45b1-8afa-c864e9e213c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util\misc\bf">
+      <UniqueIdentifier>{f4c909e4-ae4f-42e1-9c83-a215e4fc488a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sdk.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="icliententitylist.h">
+      <Filter>src\interfaces\icliententitylist</Filter>
+    </ClInclude>
+    <ClInclude Include="ivpanel.h">
+      <Filter>src\interfaces\ivpanel</Filter>
+    </ClInclude>
+    <ClInclude Include="netvars.h">
+      <Filter>src\util\netvars</Filter>
+    </ClInclude>
+    <ClInclude Include="ibaseclientdll.h">
+      <Filter>src\interfaces\ibaseclientdll</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>src\util\color</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>src\util\config</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>src\util\offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>src\util\util</Filter>
+    </ClInclude>
+    <ClInclude Include="usercmd.h">
+      <Filter>src\util\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.h">
+      <Filter>src\util\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks.h">
+      <Filter>src\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>src\util\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="iclientmodeshared.h">
+      <Filter>src\interfaces\iclientmodeshared</Filter>
+    </ClInclude>
+    <ClInclude Include="iengineclient.h">
+      <Filter>src\interfaces\iengineclient</Filter>
+    </ClInclude>
+    <ClInclude Include="playerinfo.h">
+      <Filter>src\util\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces.h">
+      <Filter>src\interfaces\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>src\util\misc\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="angle.h">
+      <Filter>src\util\misc\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>src\util\misc\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>src\global</Filter>
+    </ClInclude>
+    <ClInclude Include="aim.h">
+      <Filter>src\util\aim</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat.h">
+      <Filter>src\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>src\util\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="ienginetrace.h">
+      <Filter>src\interfaces\ienginetrace</Filter>
+    </ClInclude>
+    <ClInclude Include="trace.h">
+      <Filter>src\util\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="iglobalvarsbase.h">
+      <Filter>src\interfaces\iglobalvarsbase</Filter>
+    </ClInclude>
+    <ClInclude Include="autowall.h">
+      <Filter>src\util\autowall</Filter>
+    </ClInclude>
+    <ClInclude Include="isurface.h">
+      <Filter>src\interfaces\isurface</Filter>
+    </ClInclude>
+    <ClInclude Include="draw.h">
+      <Filter>src\util\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>src\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>src\util\input</Filter>
+    </ClInclude>
+    <ClInclude Include="elements.h">
+      <Filter>src\menu\elements\base</Filter>
+    </ClInclude>
+    <ClInclude Include="frame.h">
+      <Filter>src\menu\elements\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="checkbox.h">
+      <Filter>src\menu\elements\checkbox</Filter>
+    </ClInclude>
+    <ClInclude Include="slider.h">
+      <Filter>src\menu\elements\slider</Filter>
+    </ClInclude>
+    <ClInclude Include="key.h">
+      <Filter>src\menu\elements\key</Filter>
+    </ClInclude>
+    <ClInclude Include="icvar.h">
+      <Filter>src\interfaces\icvar</Filter>
+    </ClInclude>
+    <ClInclude Include="cvar.h">
+      <Filter>src\util\misc\cvar</Filter>
+    </ClInclude>
+    <ClInclude Include="collideable.h">
+      <Filter>src\util\misc\collideable</Filter>
+    </ClInclude>
+    <ClInclude Include="viewsetup.h">
+      <Filter>src\util\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="colorpicker.h">
+      <Filter>src\menu\elements\colorpicker</Filter>
+    </ClInclude>
+    <ClInclude Include="fixmove.h">
+      <Filter>src\util\fixmove</Filter>
+    </ClInclude>
+    <ClInclude Include="iphysicssurfaceprops.h">
+      <Filter>src\interfaces\iphysicssurfaceprops</Filter>
+    </ClInclude>
+    <ClInclude Include="bspflags.h">
+      <Filter>src\util\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="skinchanger.h">
+      <Filter>src\menu\elements\skinchanger</Filter>
+    </ClInclude>
+    <ClInclude Include="DynSkin\File\Valve\HValve.h">
+      <Filter>include\DynSkin\File\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="DynSkin\File\HFile.h">
+      <Filter>include\DynSkin\File</Filter>
+    </ClInclude>
+    <ClInclude Include="DynSkin\Skin\HSkins.h">
+      <Filter>include\DynSkin\Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="skinsutil.h">
+      <Filter>src\util\skins</Filter>
+    </ClInclude>
+    <ClInclude Include="iinputsystem.h">
+      <Filter>src\interfaces\iinputsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>src\menu\elements\button</Filter>
+    </ClInclude>
+    <ClInclude Include="callbacks.h">
+      <Filter>src\menu\callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="tab.h">
+      <Filter>src\menu\elements\tab</Filter>
+    </ClInclude>
+    <ClInclude Include="bf.h">
+      <Filter>src\util\misc\bf</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ivpanel.cpp">
+      <Filter>src\interfaces\ivpanel</Filter>
+    </ClCompile>
+    <ClCompile Include="ibaseclientdll.cpp">
+      <Filter>src\interfaces\ibaseclientdll</Filter>
+    </ClCompile>
+    <ClCompile Include="netvars.cpp">
+      <Filter>src\util\netvars</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>src\util\config</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>src\util\util</Filter>
+    </ClCompile>
+    <ClCompile Include="offsets.cpp">
+      <Filter>src\util\offsets</Filter>
+    </ClCompile>
+    <ClCompile Include="iclientmodeshared.cpp">
+      <Filter>src\interfaces\iclientmodeshared</Filter>
+    </ClCompile>
+    <ClCompile Include="iengineclient.cpp">
+      <Filter>src\interfaces\iengineclient</Filter>
+    </ClCompile>
+    <ClCompile Include="interfaces.cpp">
+      <Filter>src\interfaces\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>src\util\misc\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="global.cpp">
+      <Filter>src\global</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat.cpp">
+      <Filter>src\cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="ienginetrace.cpp">
+      <Filter>src\interfaces\ienginetrace</Filter>
+    </ClCompile>
+    <ClCompile Include="aim.cpp">
+      <Filter>src\util\aim</Filter>
+    </ClCompile>
+    <ClCompile Include="isurface.cpp">
+      <Filter>src\interfaces\isurface</Filter>
+    </ClCompile>
+    <ClCompile Include="draw.cpp">
+      <Filter>src\util\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="autowall.cpp">
+      <Filter>src\util\autowall</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>src\util\input</Filter>
+    </ClCompile>
+    <ClCompile Include="painttraverse.cpp">
+      <Filter>src\hooks\painttraverse</Filter>
+    </ClCompile>
+    <ClCompile Include="createmove.cpp">
+      <Filter>src\hooks\createmove</Filter>
+    </ClCompile>
+    <ClCompile Include="frame.cpp">
+      <Filter>src\menu\elements\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="tab.cpp">
+      <Filter>src\menu\elements\tab</Filter>
+    </ClCompile>
+    <ClCompile Include="checkbox.cpp">
+      <Filter>src\menu\elements\checkbox</Filter>
+    </ClCompile>
+    <ClCompile Include="slider.cpp">
+      <Filter>src\menu\elements\slider</Filter>
+    </ClCompile>
+    <ClCompile Include="key.cpp">
+      <Filter>src\menu\elements\key</Filter>
+    </ClCompile>
+    <ClCompile Include="icvar.cpp">
+      <Filter>src\interfaces\icvar</Filter>
+    </ClCompile>
+    <ClCompile Include="cvar.cpp">
+      <Filter>src\util\misc\cvar</Filter>
+    </ClCompile>
+    <ClCompile Include="collideable.cpp">
+      <Filter>src\util\misc\collideable</Filter>
+    </ClCompile>
+    <ClCompile Include="overrideview.cpp">
+      <Filter>src\hooks\overrideview</Filter>
+    </ClCompile>
+    <ClCompile Include="colorpicker.cpp">
+      <Filter>src\menu\elements\colorpicker</Filter>
+    </ClCompile>
+    <ClCompile Include="framestagenotify.cpp">
+      <Filter>src\hooks\framestagenotify</Filter>
+    </ClCompile>
+    <ClCompile Include="inprediction.cpp">
+      <Filter>src\hooks\inprediction</Filter>
+    </ClCompile>
+    <ClCompile Include="fixmove.cpp">
+      <Filter>src\util\fixmove</Filter>
+    </ClCompile>
+    <ClCompile Include="iphysicssurfaceprops.cpp">
+      <Filter>src\interfaces\iphysicssurfaceprops</Filter>
+    </ClCompile>
+    <ClCompile Include="skinchanger.cpp">
+      <Filter>src\menu\elements\skinchanger</Filter>
+    </ClCompile>
+    <ClCompile Include="DynSkin\File\Valve\Valve.cpp">
+      <Filter>include\DynSkin\File\Valve</Filter>
+    </ClCompile>
+    <ClCompile Include="DynSkin\File\File.cpp">
+      <Filter>include\DynSkin\File</Filter>
+    </ClCompile>
+    <ClCompile Include="DynSkin\Skin\Skins.cpp">
+      <Filter>include\DynSkin\Skin</Filter>
+    </ClCompile>
+    <ClCompile Include="skinsutil.cpp">
+      <Filter>src\util\skins</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>src\menu\elements\button</Filter>
+    </ClCompile>
+    <ClCompile Include="callbacks.cpp">
+      <Filter>src\menu\callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="iinputsystem.cpp">
+      <Filter>src\interfaces\iinputsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="bf.cpp">
+      <Filter>src\util\misc\bf</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

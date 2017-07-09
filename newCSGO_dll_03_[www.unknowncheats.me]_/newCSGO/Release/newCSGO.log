@@ -1,0 +1,27 @@
+﻿  CDrawing.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\hash_map(17): error C2338: <hash_map> is deprecated and will be REMOVED. Please use <unordered_map>. You can define _SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+d:\downloads\newcsgo_dll_03_[www.unknowncheats.me]_\newcsgo\stdafx.h(34): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CEngine.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\hash_map(17): error C2338: <hash_map> is deprecated and will be REMOVED. Please use <unordered_map>. You can define _SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+d:\downloads\newcsgo_dll_03_[www.unknowncheats.me]_\newcsgo\stdafx.h(34): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  cfn.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\hash_map(17): error C2338: <hash_map> is deprecated and will be REMOVED. Please use <unordered_map>. You can define _SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+d:\downloads\newcsgo_dll_03_[www.unknowncheats.me]_\newcsgo\stdafx.h(34): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CHackEsp.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\hash_map(17): error C2338: <hash_map> is deprecated and will be REMOVED. Please use <unordered_map>. You can define _SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+d:\downloads\newcsgo_dll_03_[www.unknowncheats.me]_\newcsgo\stdafx.h(34): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  checksum_crc.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\hash_map(17): error C2338: <hash_map> is deprecated and will be REMOVED. Please use <unordered_map>. You can define _SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+d:\downloads\newcsgo_dll_03_[www.unknowncheats.me]_\newcsgo\stdafx.h(34): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CSGOStructs.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\hash_map(17): error C2338: <hash_map> is deprecated and will be REMOVED. Please use <unordered_map>. You can define _SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+d:\downloads\newcsgo_dll_03_[www.unknowncheats.me]_\newcsgo\stdafx.h(34): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  CVMTHooking.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\hash_map(17): error C2338: <hash_map> is deprecated and will be REMOVED. Please use <unordered_map>. You can define _SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+d:\downloads\newcsgo_dll_03_[www.unknowncheats.me]_\newcsgo\stdafx.h(34): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  HackMain.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\hash_map(17): error C2338: <hash_map> is deprecated and will be REMOVED. Please use <unordered_map>. You can define _SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+d:\downloads\newcsgo_dll_03_[www.unknowncheats.me]_\newcsgo\stdafx.h(34): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Math.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\hash_map(17): error C2338: <hash_map> is deprecated and will be REMOVED. Please use <unordered_map>. You can define _SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS to acknowledge that you have received this warning.
+d:\downloads\newcsgo_dll_03_[www.unknowncheats.me]_\newcsgo\stdafx.h(34): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
